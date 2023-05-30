@@ -1,1 +1,3 @@
-import steamlit
+import streamlit
+
+streamlit.title('WTF')
