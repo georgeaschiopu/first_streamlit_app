@@ -1,7 +1,9 @@
 import streamlit
 import requests
-import pandas
+#import pandas
 import snowflake.connector
+from urlib.error import URLError
+
 
 streamlit.header("Fruityvice Fruit Advice!")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
